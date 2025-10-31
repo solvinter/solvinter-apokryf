@@ -1,22 +1,47 @@
-# 🪐 Solvinter-Apokryf  
-### *The Apocryphal Library of Solvinter (2100 Project)*  
+# 🜂 Solvinter – Det Apokryfiska Biblioteket
 
-> “Det skrivna som aldrig skrevs, men ändå citeras.”  
-> — *Förord till det Apokryfiska Biblioteket (2099)*  
-
----
-
-## 📘 Manifest
-
-**Solvinter-Apokryf** är ett levande referensbibliotek till *Solvinter-trilogin* —  
-ett arkiv av fiktiva, juridiska, vetenskapliga och filosofiska texter som nämns i verket,  
-men som inte existerade förrän nu.
-
-Biblioteket fungerar som en brygga mellan berättelse och teori:  
-ett parallellt system av dokument, fragment och lagtexter ur framtidens arkiv (2080-2100).  
-Här möts det litterära och det epistemologiska — ett “mellanrum” för språk, lag, teknologi och andning.
+> “All kunskap är en avlagring av ljus.”  
+> — ur *Corpus Somni, Fragmentum I:4*
 
 ---
 
-## 🗂 Struktur
+Detta arkiv samlar de källor, fotnoter och fragment som omnämns i **Solvinter-trilogin (2100-projektet)**.  
+Biblioteket fungerar som en parallell verklighet till romanen — en plats där  
+**juridik, teologi, teknologi och poesi** korsas i dokumentform.
 
+Varje apokryf är en självständig nod i ett större nätverk av berättelser.  
+Några är fiktiva; andra återger faktiska förordningar, riktlinjer och lagrum (SoL, SOSFS, HSLF-FS).  
+Tillsammans utgör de *den resonanta ekonomins arkitektur*.
+
+---
+
+## Format
+
+Varje post ligger i `/apokryf/` och följer samma struktur:
+
+```yaml
+---
+title: "Apokryf IV:13 – Föreskrifter om rytmisk deltagandeekonomi"
+type: "Fiktiv-juridisk text"
+origin: "Luleå Tekniska Arkiv"
+year: 2086
+referenced_in:
+  - "Kapitel 25 – Fältets Valuta"
+  - "Kapitel 26 – Den Osynliga Ekonomin"
+real_equivalent: "SoL (2001:453) 5 kap. 9 §"
+tags: ["ekonomi", "teknologi", "filosofi", "socialt arbete"]
+summary: >
+  En förordning som föreskriver att värde uppstår genom deltagande och rytm, 
+  inte genom monetär avkastning. Ses som början till den resonanta ekonomin.
+---
+---
+
+## Om biblioteket
+
+Biblioteket växer med varje ny text i **Solvinter-projektet**.  
+Det är fritt att läsa, citera och länka till,  
+men får inte användas kommersiellt utan tillstånd.
+
+**Licens:** Creative Commons BY-NC-SA 4.0  
+**Kurator:** Dominic E. Giwa  
+**Plats:** Göteborg / Luleå / Windey Bay 2100
